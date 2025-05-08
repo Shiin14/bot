@@ -12,6 +12,13 @@
         <label for="input">Masukan genre film yang anda inginkan:</label>
         <input type="text" id="input" placeholder="...">
         <button onclick="getResponse()">Search</button>
+        <script>
+            document.getElementById('input').addEventListener('keypress', function(event) {
+            if (event.key === 'Enter') {
+                getResponse();
+            }
+            });
+        </script>
         <div id="output"></div>
         <p class="label">Halibot</p>
     </div>
