@@ -11,6 +11,14 @@ function getResponse() {
     output.innerHTML = "Berikut Top 5 Film Dengan Genre Horror : 1)The Conjuring (2013). 2)Hereditary (2018). 3)The Exorcist (1973). 4)Get Out (2017). 5)Insidious (2010).";
   } else if (input.toLowerCase().indexOf("adventure") !== -1) {
     output.innerHTML = "Berikut Top 5 Film Dengan Genre Adventure : 1)The Lord of the Rings: The Fellowship of the Ring (2001). 2)Indiana Jones: Raiders of the Lost Ark (1981). 3) Pirates of the Caribbean: The Curse of the Black Pearl (2003). 4)Avatar (2009). 5)Life of Pi (2012).  ";
+  } else if (input.toLowerCase().indexOf("fantasy") !== -1) {
+    output.innerHTML = "Berikut top 5 Film Dengan Genre Fantasy : 1)The Lord of the Rings Trilogy (2001–2003). 2)Harry Potter Series (2001–2011). 3)Pan’s Labyrinth (El Laberinto del Fauno, 2006). 4)Spirited Away (Sen to Chihiro no Kamikakushi, 2001). 5)The Chronicles of Narnia: The Lion, the Witch and the Wardrobe (2005).";
+  } else if (input.toLowerCase().indexOf("thriller") !== -1) {
+    output.innerHTML = "Berikut Top 5 Film Dengan Genre Thriller : 1)Se7en (1995). 2)The Silence of the Lambs (1991). 3)Gone Girl (2014). 4)Prisoners (2013). 5)Zodiac (2007)."
+  } else if ( input.toLowerCase().indexOf("drama") !== -1) {
+    output.innerHTML = "Berikut Top 5 Film Dengan Genre Drama : 1)The Shawshank Redemption (1994). 2)Forrest Gump (1994). 3)Parasite (2019). 4)A Beautiful Mind (2001). 5)Manchester by the Sea (2016).";
+  } else if (input.toLowerCase().indexOf("sci-Fi") !== -1) {
+    output.innerHTML = "Berikut Top 5 Film Dengan Genre Sci-Fi : 1)Interstellar (2014). 2)Blade Runner 2049 (2017). 3) The Matrix (1999). 4)Inception (2010). 5)Arrival (2016).  ";
   } else {
     output.innerHTML = "Maaf, saya tidak mengerti apa yang Anda maksud.";
   }
