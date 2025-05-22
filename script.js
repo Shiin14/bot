@@ -17,7 +17,7 @@ function getResponse() {
     output.innerHTML = "Berikut Top 5 Film Dengan Genre Thriller : 1)Se7en (1995). 2)The Silence of the Lambs (1991). 3)Gone Girl (2014). 4)Prisoners (2013). 5)Zodiac (2007)."
   } else if ( input.toLowerCase().indexOf("drama") !== -1) {
     output.innerHTML = "Berikut Top 5 Film Dengan Genre Drama : 1)The Shawshank Redemption (1994). 2)Forrest Gump (1994). 3)Parasite (2019). 4)A Beautiful Mind (2001). 5)Manchester by the Sea (2016).";
-  } else if (input.toLowerCase().indexOf("sci-Fi") !== -1) {
+  } else if (input.toLowerCase().indexOf("sci-fi") !== -1) {
     output.innerHTML = "Berikut Top 5 Film Dengan Genre Sci-Fi : 1)Interstellar (2014). 2)Blade Runner 2049 (2017). 3) The Matrix (1999). 4)Inception (2010). 5)Arrival (2016).  ";
   } else {
     output.innerHTML = "Maaf, saya tidak mengerti apa yang Anda maksud.";
